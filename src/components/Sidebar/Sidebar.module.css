@@ -1,0 +1,12 @@
+.sidebar {
+    grid-area: n;
+    background-color: green;
+  }
+  .item{
+      color:white;
+      margin-left: 20px;
+      
+  }
+ .item .activeLink{
+     color:gold;
+ }

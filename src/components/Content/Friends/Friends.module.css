@@ -1,0 +1,14 @@
+.content {
+    grid-area: c;
+    background-color:yellow;
+  }
+  
+  .avaimg{
+    width:300px;
+  }
+  .topImg{
+    width:100%;
+  }
+  .item{
+    color:blue
+  }

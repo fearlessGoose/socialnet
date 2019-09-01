@@ -1,0 +1,7 @@
+.header {
+    grid-area: h;
+    background-color: blue;
+  }
+  .logo{
+    width: 140px;
+  }
