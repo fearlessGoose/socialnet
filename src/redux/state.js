@@ -1,5 +1,7 @@
-import { rerenderEntireTree } from './../render';
 
+let rerenderEntireTree =()=>{
+  console.log('hei');
+}
 let state = {
   
   profilePage: {
@@ -70,5 +72,7 @@ export let appdateNewMessageText = (newText)=>{
 // }
 
 
-
+export const subscribe = (observer)=>{
+  rerenderEntireTree = observer;
+}
 export default state
